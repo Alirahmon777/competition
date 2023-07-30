@@ -1,0 +1,8 @@
+shifoxonalar = id, title, shifoxona_id
+shifoxona = id, shifokor_id, xizmatlar_id, narxlar
+shifokorlar = id,login(clinikaning_nomi),info, password(tel_raqami), ismi, familiasi, xizmat_id, rasmi, ish_vaqti, etaj, xonasi, bemorlar_soni, xozirgi_bemori, xonasi, oxrgi_bmga_ktgn_vqt
+xizmatlar = id, title
+bemorlar = id, ismi, familiasi, telefon_raqami, koriki,
+navbat = id, shifoxona_id, shifokor_id, bemor_id, korik, date
+narxlar = id, ximat_id, narxi
+admin = login(Clinika), password(admin), o'chirishi mumkin edit qlishi mumkin
