@@ -1,0 +1,96 @@
+/* InfoDoctor.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.doctor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.doctor-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.doctor-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.doctor-card h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.doctor-card p {
+    margin: 0.5rem 0;
+}
+
+.doctor-card a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.doctor-card a:hover {
+    text-decoration: underline;
+}
+
+.doctor-detail {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-detail img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.doctor-detail h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.doctor-detail p {
+    margin: 0.5rem 0;
+}
